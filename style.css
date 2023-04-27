@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body{
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.background{
+  background-image: url('profile-card-component-main/images/bg-pattern-card.svg');
+  height: 40%;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-size: cover;
+}
+#profile > img{
+  border-radius: 50%;
+  border: 5px white solid;
+  width: 5.5em;
+  height: 5.5em;
+}
+#head{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#profile{
+  margin-top: 27%;
+}
+#foot{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: -.5em;
+}
+.data p{
+  margin-top: -15px;
+  opacity: .5;
+}
+hr{
+  opacity: .2;
+  margin-top: 35%;
+}
+.blob1{
+  top: -10%;
+  left: -10%;
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  z-index: -1;
+}
+.blob2{
+  bottom: -20%;
+  right: -20%;
+  position: fixed;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  z-index: -1;
+}
